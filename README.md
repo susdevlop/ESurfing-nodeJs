@@ -8,8 +8,8 @@
 使用方法 ：
 克隆本项目并安装包    
 插入网线后，ping enet.10000.gd.cn获得ESurfing URL，其他配置请自行获取    
-MAC 、linux 等需要小改动
-理论mac和linux windows都能用
+经过测试MAC 、linux 等可能无法使用，因为可能header没配置user-agent，不过可以一试
+
 ```
   yarn install
   node index.js
